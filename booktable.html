@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="shortcut icon" href="./images/logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity=""
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Table</title>
+</head>
+<body>
+     <header>
+        <div class="header">
+            <div class="headerbar">
+                <div class="account">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i>
+                                <div class="search" id="search1">
+                                    <input type="search">
+                                    <i class="fa-solid fa-magnifying-glass srchicon" id="srchicon1"></i>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-user" id="user-mb"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="./images/flog.jpeg" alt="">
+            </div>
+            <div class="bar">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark" id="hdcross"></i>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Food menu.html">Food Menu</a></li>
+                      <li><a href="About.html">About</a></li>
+                    <li><a href="Contact us.html">Contacts</a></li>
+
+                </ul>
+            </div>
+            <div class="account">
+    <ul>
+        <li>
+            <a href="#">
+                <i class="fa-solid fa-house"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i>
+            </a>
+            <div class="search" id="searchinput2">
+                <a href="#">
+                    <input type="search">
+                    <i class="fa-solid fa-magnifying-glass srchicon" id="srchicon2"></i>
+                </a>
+            </div>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa-solid fa-user" id="user-lap"></i>  
+            </a>
+        </li>
+    </ul>
+</div>
+        </div>
+    </header>
+    <div class="con">
+       <h2>
+        <i> Make your Reservation!</i>
+        </h2> 
+    </div>
+    <div class="container1">
+    <div class="container-time">
+        <h2 class="heading">Time Open</h2>
+        <h3 class="heading-days">Monday-Friday</h3>
+        <p>7am -11am (breakfast)</p>
+        <p>11am- 10pm (Lunch/Dinner)</p>
+
+        <h3 class="heading-days">Saturday-Sunday</h3>
+        <p>9am -1am (breakfast)</p>
+        <p>1am- 12pm (Lunch/Dinner)</p>
+        <hr class="time-form-divider">
+        <h4 class="heading-phone">Call Us : (123) 45-45-456</h4>
+    </div>
+
+    <div class="container-form">
+    <form action="#">
+        <h2 class="heading-yellow">Reservation Online</h2>
+        <div class="form-field">
+            <p>Your Name</p>
+            <input type="text" placeholder="Your name">
+        </div>
+        <div class="form-field">
+            <p>Your Email</p>
+            <input type="email" placeholder="Your email">
+        </div>
+        <div class="form-field">
+            <p>Date</p>
+            <input type="date">
+        </div>
+        <div class="form-field">
+            <p>Time</p>
+            <input type="time">
+        </div>
+        <div class="form-field">
+            <p>How many people?</p>
+            <select name="select" id="#">
+                <option value="1">1 person</option>
+                <option value="2">2 person</option>
+                <option value="3">3 person</option>
+                <option value="4">4 person</option>
+                <option value="5">5 person</option>
+                <option value="5+">5+ person</option>
+            </select>
+        </div>
+        <button class="btn4">Submit</button>
+    </form>
+</div>
+</div>
+<button class="btn5" type="button" onclick="window.history.back()">Back.</button>
+</body>
+</html>
